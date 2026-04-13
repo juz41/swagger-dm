@@ -1314,7 +1314,11 @@ components:
             type: string
         properties:
           type: object
-          additionalProperties: true
+          description: "A map of property names to lists of strings interpreted differently in case of TEXT, BOOLEAN, SELECT (all allowed values), NUMBER (min and max value)"
+          additionalProperties:
+            type: array
+            items:
+              type: string
         searchPhrase:
           type: string
         limit:
