@@ -587,7 +587,7 @@ paths:
                 items:
                   $ref: "#/components/schemas/Offer"
         204:
-          description: No offers found
+          description: User has no offers
         401:
           description: Unauthorized
         500:
@@ -612,7 +612,7 @@ paths:
                 items:
                   $ref: "#/components/schemas/Conversation"
         401:
-          description: Unauthorized
+          description: Unauthorized - banned users receive this as well
         500:
           description: Internal server error
 
