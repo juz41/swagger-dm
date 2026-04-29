@@ -221,7 +221,7 @@ paths:
       tags:
         - offers
       summary: Update offer status
-      description: Changes offer status (ACTIVE/PROMOTED/SOLD - permissions apply)
+      description: Changes offer status (ACTIVE/PROMOTED/SOLD - permissions apply (user can changed their offer's statis to SOLD, admin can change DRAFT to ACTIVE))
       security:
         - bearerAuth: []
       parameters:
