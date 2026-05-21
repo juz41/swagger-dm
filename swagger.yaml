@@ -999,6 +999,8 @@ paths:
                     type: integer
                   pages:
                     type: integer
+        400:
+          description: Invalid request
         401:
           description: Unauthorized
         403:
